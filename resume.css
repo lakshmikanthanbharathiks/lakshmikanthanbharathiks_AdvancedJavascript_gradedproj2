@@ -26,6 +26,7 @@
 }
 
 .resume-bg{
+    border-radius: 5px;
     border-style: solid;
     margin-left:15%;
     margin-top:3%;
@@ -34,7 +35,6 @@
     background-position: right;
     background-repeat: no-repeat;
     box-shadow: 0 0 2px rgb(20, 1, 1);
-    overflow: scroll;
     flex-direction: column
 }
 
