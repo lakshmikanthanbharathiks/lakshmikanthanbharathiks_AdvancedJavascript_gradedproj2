@@ -1,0 +1,94 @@
+
+.search-box {
+    margin-left:45%;
+    margin-top:3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 200px;
+}
+
+.previous:hover, .next:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.next, .previous {
+    margin-bottom: 0%;
+    margin-right: 3%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: black;
+    float: right;
+}
+
+.resume-bg{
+    border-style: solid;
+    margin-left:15%;
+    margin-top:3%;
+    display:inline-block;
+    background-size: 500px;
+    background-position: right;
+    background-repeat: no-repeat;
+    box-shadow:0 1px 4px rgba(174, 169, 169, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(193, 182, 182, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    overflow: scroll;
+    flex-direction: column
+}
+
+.error{
+    height: 200px;
+    width: 400px; 
+    margin-left:40%;
+    margin-top:3%;
+    font-size: 40px;
+    background-size: 500px;
+    background-position: right;
+    background-repeat: no-repeat;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    flex-direction: column
+}
+
+.top-resume{
+    background-color: rgb(205, 211, 196);
+    width: 60em; 
+    display:inline-block;
+    text-align: center;
+}
+
+.down-resume{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+}
+
+.left-resume {
+    background-color:pink;
+    display:inline-block;
+    margin: 1%;
+}
+.left-resume-para{
+    background-color:grey;
+    width: 80%;
+    margin: 10%;
+    font-weight: bold;
+}
+.left-resume ul{
+    text-align: right;
+    list-style: none;
+    margin: 3px;
+}
+
+.right-resume{
+    display:inline-block;
+}
+
+.right-resume ul{
+    list-style: none;
+    margin: 3px;
+    width: 40em; 
+}
